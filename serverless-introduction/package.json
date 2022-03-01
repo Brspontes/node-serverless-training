@@ -1,0 +1,23 @@
+{
+  "name": "serverless-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sls invoke local -f hello",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brspontes/node-serverless-training.git"
+  },
+  "author": "Brian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brspontes/node-serverless-training/issues"
+  },
+  "homepage": "https://github.com/Brspontes/node-serverless-training#readme",
+  "dependencies": {
+    "serverless": "^3.7.0"
+  }
+}
