@@ -1,0 +1,17 @@
+{
+  "name": "serverless-aws-rekognition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sls invoke local -f img-analyse",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.1084.0",
+    "axios": "^0.26.0",
+    "serverless": "^3.7.0"
+  }
+}
