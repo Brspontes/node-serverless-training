@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx sls invoke local -f heroes-insert",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brian",
   "license": "MIT",
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "aws-sdk": "^2.1085.0",
     "serverless": "^3.7.0"
   }
 }
