@@ -1,0 +1,5 @@
+- Effect: Allow
+  Action:
+    - dynamodb:GetItem
+    - dynamodb:PutItem
+  Resources: "arn:aws:dynamodb:us-east-1:*:table/${self:custom.tableName}"
